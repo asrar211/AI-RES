@@ -6,7 +6,7 @@ interface TemplateSelectorProps {
     resumeData: ResumeData;
 }
 
-export const TemplateSelector: React.FC<TemplateSelectorProps> = ({ selected, setSelected, resumeData }) => {
+export const TemplateSelector: React.FC<TemplateSelectorProps> = ({ selected, setSelected }) => {
     return (
       <div className="mb-6">
       <h2 className="text-lg font-semibold mb-4 text-center">Choose a Template</h2>
