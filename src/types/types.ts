@@ -6,6 +6,5 @@ export interface ResumeData {
     experience: string[];
     education: string[];
     projects: string[];
-    jobDescription: string;
-  }
-  
+    jobDescription?: string;
+}

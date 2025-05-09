@@ -68,7 +68,7 @@ export const CreateResume = () => {
             <div>Select a Template First</div>
           )}
 
-          <ResumePrint
+            <ResumePrint
             resumeData={resumeData}
             selectedTemplate={selectedTemplate}
           />

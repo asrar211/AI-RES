@@ -1,20 +1,19 @@
 @media print {
-    body {
+body {
       font-family: Arial, sans-serif;
       font-size: 12px;
       margin: 0;
-    }
+}
   
-    .resume-container {
+.resume-container {
       padding: 20px;
-    }
+}
   
-    /* Customize template-specific styles for print */
-    .template-1 {
+.template-1 {
       font-size: 14px;
-    }
+}
   
-    .template-2 {
+.template-2 {
       font-size: 14px;
-    }
+}
   }

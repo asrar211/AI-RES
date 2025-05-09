@@ -15,7 +15,6 @@ export const ResumePrint: React.FC<ResumeTemplateForPrintProps> = ({
 }) => {
   const componentRef = useRef<HTMLDivElement>(null);
 
-  // Function to handle PDF generation
   const handleDownloadPdf = () => {
     if (componentRef.current) {
       const options = {
@@ -34,7 +33,7 @@ export const ResumePrint: React.FC<ResumeTemplateForPrintProps> = ({
     <div>
       <button
         onClick={handleDownloadPdf}
-        className="bg-blue-500 text-white p-2 rounded-md mb-4"
+        className="bg-blue-500 cursor-pointer text-white p-2 rounded-md mb-4"
       >
         Download Resume as PDF
       </button>
